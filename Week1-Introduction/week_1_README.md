@@ -2,7 +2,7 @@
    ```
     Cloud Platform:                 AWS
     Computing :                     EC2
-    Remote Connection:              ssh-i  ~/.ssh/<<keyname>>.pem  <<username>>@<<public-ip>
+    Remote Connection:              ssh-i  ~/.ssh/<<keyname>>.pem  <<username>>@<<public-ip>>
     Operating System:               Linux(Ubuntu)
     Environment Setup:              conda create -n mlops python=3.9
                                     conda activate mlops
