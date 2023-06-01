@@ -1,18 +1,11 @@
-## Experiment Tracking
+## Week2a - Experiment Tracking - Localhost
    ```
-    Cloud Platform:                 AWS
-    Computing :                     EC2
-    Remote Connection:              ssh-i  ~/.ssh/<<keyname>>.pem  <<username>>@<<public-ip>>
-    Operating System:               Linux(Ubuntu)
-    Environment Setup:              conda create -n mlops python=3.9
-                                    conda activate mlops
-                                    conda install -c conda-forge numpy pandas matplotlib seaborn scikit-learn jupyter optuna mlflow
-    To run the jupyter notebook:    jupyter notebook
-
-    MLFlow UI Command:              mlflow ui           
-    MLFlow Server Command:          mlflow server --backend-store-uri sqlite:///backend.db --default-artifact-root ./artifacts
-    Link to the MLFlow Server:      http://127.0.0.1:5000
-
+   Experiment Tracking - Localhost Link: https://github.com/praveenbalijepalli/MLOps-Zoomcamp/tree/main/Week2-Experiment_Tracking/Week2a-Experiment_Tracking-Localhost
 
    ```                              
  
+## Week2b - Experiment Tracking - WandB
+   ```
+   Experiment Tracking - WandB Link: https://github.com/praveenbalijepalli/MLOps-Zoomcamp/tree/main/Week2-Experiment_Tracking/Week2b-Experiment_Tracking-WandB
+   
+   ```                              
