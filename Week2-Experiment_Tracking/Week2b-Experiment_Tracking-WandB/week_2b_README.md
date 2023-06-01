@@ -1,6 +1,6 @@
 ## Experiment Tracking - WandB
    ```
-    Operating System:               Windows 10
+    Platform:                       WandB Cloud
     Environment Setup:              conda create -n mlops python=3.9
                                     conda activate mlops
                                     conda install -c conda-forge numpy pandas matplotlib seaborn scikit-learn jupyter optuna mlflow
