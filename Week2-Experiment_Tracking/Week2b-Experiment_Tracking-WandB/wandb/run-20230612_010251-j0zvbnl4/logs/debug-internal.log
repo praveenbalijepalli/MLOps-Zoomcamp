@@ -1,0 +1,200 @@
+2023-06-12 01:02:51,210 INFO    StreamThr :27668 [internal.py:wandb_internal():86] W&B internal server running at pid: 27668, started at: 2023-06-12 01:02:51.209457
+2023-06-12 01:02:51,212 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: status
+2023-06-12 01:02:51,224 INFO    WriterThread:27668 [datastore.py:open_for_write():85] open: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\run-j0zvbnl4.wandb
+2023-06-12 01:02:51,225 DEBUG   SenderThread:27668 [sender.py:send():369] send: header
+2023-06-12 01:02:51,227 DEBUG   SenderThread:27668 [sender.py:send():369] send: run
+2023-06-12 01:02:52,022 INFO    SenderThread:27668 [dir_watcher.py:__init__():211] watching files in: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files
+2023-06-12 01:02:52,022 INFO    SenderThread:27668 [sender.py:_start_run_threads():1100] run started: j0zvbnl4 with start time 1686511971.216462
+2023-06-12 01:02:52,023 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: summary_record
+2023-06-12 01:02:52,024 INFO    SenderThread:27668 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 01:02:52,027 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: check_version
+2023-06-12 01:02:52,027 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: check_version
+2023-06-12 01:02:52,157 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: run_start
+2023-06-12 01:02:52,530 DEBUG   HandlerThread:27668 [system_info.py:__init__():31] System info init
+2023-06-12 01:02:52,531 DEBUG   HandlerThread:27668 [system_info.py:__init__():46] System info init done
+2023-06-12 01:02:52,531 INFO    HandlerThread:27668 [system_monitor.py:start():181] Starting system monitor
+2023-06-12 01:02:52,531 INFO    SystemMonitor:27668 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-12 01:02:52,531 INFO    HandlerThread:27668 [system_monitor.py:probe():201] Collecting system info
+2023-06-12 01:02:52,537 INFO    SystemMonitor:27668 [interfaces.py:start():190] Started cpu monitoring
+2023-06-12 01:02:52,538 INFO    SystemMonitor:27668 [interfaces.py:start():190] Started disk monitoring
+2023-06-12 01:02:52,538 INFO    SystemMonitor:27668 [interfaces.py:start():190] Started gpu monitoring
+2023-06-12 01:02:52,539 INFO    SystemMonitor:27668 [interfaces.py:start():190] Started memory monitoring
+2023-06-12 01:02:52,552 INFO    SystemMonitor:27668 [interfaces.py:start():190] Started network monitoring
+2023-06-12 01:02:52,557 DEBUG   HandlerThread:27668 [system_info.py:probe():195] Probing system
+2023-06-12 01:02:52,561 DEBUG   HandlerThread:27668 [gitlib.py:_init_repo():53] git repository is invalid
+2023-06-12 01:02:52,561 DEBUG   HandlerThread:27668 [system_info.py:probe():240] Probing system done
+2023-06-12 01:02:52,561 DEBUG   HandlerThread:27668 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.9.16', 'heartbeatAt': '2023-06-11T19:32:52.557721', 'startedAt': '2023-06-11T19:32:51.192492', 'docker': None, 'cuda': None, 'args': ('--wandb_project', 'mlops_green_taxi', '--wandb_entity', 'vnpraveenb', '--data_artifact', 'vnpraveenb/mlops_green_taxi/NYC-Taxi:v0'), 'state': 'running', 'program': 'C:\\Users\\Praveen\\Desktop\\MLOps-Zoomcamp-Assignment\\Week2-Experiment_Tracking\\Week2b-Experiment_Tracking-WandB\\homework-wandb\\sweep.py', 'codePath': 'homework-wandb\\sweep.py', 'host': 'Zatoichi', 'username': 'Praveen', 'executable': 'C:\\Users\\Praveen\\anaconda3\\envs\\wandb\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2808.0, 'min': 0.0, 'max': 2808.0}, 'cpu_freq_per_core': [{'current': 2808.0, 'min': 0.0, 'max': 2808.0}], 'disk': {'total': 936.2119102478027, 'used': 869.8966598510742}, 'gpu': 'NVIDIA GeForce GTX 1060 with Max-Q Design', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1060 with Max-Q Design', 'memory_total': 6442450944}], 'memory': {'total': 31.867870330810547}}
+2023-06-12 01:02:52,561 INFO    HandlerThread:27668 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-12 01:02:52,561 INFO    HandlerThread:27668 [system_monitor.py:probe():214] Publishing system info
+2023-06-12 01:02:52,561 DEBUG   HandlerThread:27668 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-12 01:02:52,564 DEBUG   HandlerThread:27668 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-12 01:02:52,564 DEBUG   HandlerThread:27668 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-12 01:02:52,575 ERROR   HandlerThread:27668 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\Praveen\anaconda3\envs\wandb\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\Praveen\anaconda3\envs\wandb\lib\subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\Praveen\anaconda3\envs\wandb\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Praveen\anaconda3\envs\wandb\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2023-06-12 01:02:52,577 DEBUG   HandlerThread:27668 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-12 01:02:52,579 INFO    HandlerThread:27668 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-12 01:02:52,589 DEBUG   SenderThread:27668 [sender.py:send():369] send: files
+2023-06-12 01:02:52,589 INFO    SenderThread:27668 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-06-12 01:02:52,599 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-12 01:02:52,600 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: stop_status
+2023-06-12 01:02:52,980 DEBUG   SenderThread:27668 [sender.py:send():369] send: telemetry
+2023-06-12 01:02:53,042 INFO    Thread-16 :27668 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\wandb-summary.json
+2023-06-12 01:02:53,043 INFO    Thread-16 :27668 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\conda-environment.yaml
+2023-06-12 01:02:53,044 INFO    Thread-16 :27668 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\requirements.txt
+2023-06-12 01:02:53,044 INFO    Thread-16 :27668 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\wandb-metadata.json
+2023-06-12 01:02:53,527 INFO    wandb-upload_0:27668 [upload_job.py:push():133] Uploaded file C:\Users\Praveen\AppData\Local\Temp\tmp1fkmggqxwandb\0lt2tpx2-wandb-metadata.json
+2023-06-12 01:02:53,764 DEBUG   SenderThread:27668 [sender.py:send():369] send: use_artifact
+2023-06-12 01:02:54,579 ERROR   gpu       :27668 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-06-12 01:02:54,580 ERROR   gpu       :27668 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-06-12 01:02:55,068 INFO    Thread-16 :27668 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\output.log
+2023-06-12 01:02:55,268 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-12 01:02:55,269 DEBUG   SenderThread:27668 [sender.py:send():369] send: history
+2023-06-12 01:02:55,270 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: summary_record
+2023-06-12 01:02:55,272 INFO    SenderThread:27668 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 01:02:55,791 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: log_artifact
+2023-06-12 01:02:55,791 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: log_artifact
+2023-06-12 01:02:56,078 INFO    Thread-16 :27668 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\wandb-summary.json
+2023-06-12 01:02:56,733 ERROR   gpu       :27668 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-06-12 01:02:56,733 ERROR   gpu       :27668 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-06-12 01:02:56,796 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-12 01:02:57,093 INFO    Thread-16 :27668 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\output.log
+2023-06-12 01:02:58,661 INFO    wandb-upload_0:27668 [upload_job.py:push():91] Uploaded file C:\Users\Praveen\AppData\Local\wandb\wandb\artifacts\staging\tmp8fv55gmv
+2023-06-12 01:02:58,877 ERROR   gpu       :27668 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-06-12 01:02:58,877 ERROR   gpu       :27668 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-06-12 01:03:00,122 INFO    SenderThread:27668 [sender.py:send_request_log_artifact():1414] logged artifact j0zvbnl4-model - {'id': 'QXJ0aWZhY3Q6NDg0NDU0Mzk4', 'digest': '893fa2212123433119dd9809ff906848', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc2MDgyOTI2', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-12 01:03:00,122 DEBUG   SenderThread:27668 [sender.py:send():369] send: telemetry
+2023-06-12 01:03:00,123 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: status_report
+2023-06-12 01:03:00,123 DEBUG   SenderThread:27668 [sender.py:send():369] send: exit
+2023-06-12 01:03:00,123 INFO    SenderThread:27668 [sender.py:send_exit():574] handling exit code: 0
+2023-06-12 01:03:00,124 INFO    SenderThread:27668 [sender.py:send_exit():576] handling runtime: 3
+2023-06-12 01:03:00,125 INFO    SenderThread:27668 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 01:03:00,126 INFO    SenderThread:27668 [sender.py:send_exit():582] send defer
+2023-06-12 01:03:00,126 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: poll_exit
+2023-06-12 01:03:00,126 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:00,126 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-12 01:03:00,127 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:00,127 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-06-12 01:03:00,127 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 1
+2023-06-12 01:03:00,127 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:00,128 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-12 01:03:00,128 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:00,128 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-06-12 01:03:00,128 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 2
+2023-06-12 01:03:00,129 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:00,129 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-12 01:03:00,129 INFO    HandlerThread:27668 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-12 01:03:00,129 DEBUG   SystemMonitor:27668 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-12 01:03:00,129 INFO    HandlerThread:27668 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-12 01:03:00,130 DEBUG   SystemMonitor:27668 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-12 01:03:00,141 INFO    HandlerThread:27668 [interfaces.py:finish():202] Joined disk monitor
+2023-06-12 01:03:00,141 DEBUG   SystemMonitor:27668 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-12 01:03:00,323 INFO    HandlerThread:27668 [interfaces.py:finish():202] Joined gpu monitor
+2023-06-12 01:03:00,323 INFO    HandlerThread:27668 [interfaces.py:finish():202] Joined memory monitor
+2023-06-12 01:03:00,324 INFO    HandlerThread:27668 [interfaces.py:finish():202] Joined network monitor
+2023-06-12 01:03:00,324 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:00,324 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-06-12 01:03:00,324 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 3
+2023-06-12 01:03:00,324 DEBUG   SenderThread:27668 [sender.py:send():369] send: stats
+2023-06-12 01:03:00,324 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:00,325 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-12 01:03:00,325 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:00,325 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-06-12 01:03:00,325 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 4
+2023-06-12 01:03:00,325 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:00,325 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-12 01:03:00,326 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:00,326 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-06-12 01:03:00,326 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 5
+2023-06-12 01:03:00,326 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:00,326 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-12 01:03:00,327 DEBUG   SenderThread:27668 [sender.py:send():369] send: summary
+2023-06-12 01:03:00,328 INFO    SenderThread:27668 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 01:03:00,328 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:00,328 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-06-12 01:03:00,328 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 6
+2023-06-12 01:03:00,328 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:00,329 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-12 01:03:00,329 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:00,329 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-06-12 01:03:00,333 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: status_report
+2023-06-12 01:03:00,680 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 7
+2023-06-12 01:03:00,680 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:00,681 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-12 01:03:00,681 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:00,681 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-06-12 01:03:00,897 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 8
+2023-06-12 01:03:00,897 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:00,897 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-12 01:03:00,897 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:00,897 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-06-12 01:03:00,898 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 9
+2023-06-12 01:03:00,898 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:00,898 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-12 01:03:00,898 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:00,898 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-06-12 01:03:00,898 INFO    SenderThread:27668 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-06-12 01:03:01,134 INFO    SenderThread:27668 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\wandb-summary.json
+2023-06-12 01:03:01,135 INFO    SenderThread:27668 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\output.log
+2023-06-12 01:03:01,135 INFO    SenderThread:27668 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\config.yaml
+2023-06-12 01:03:01,136 INFO    SenderThread:27668 [dir_watcher.py:finish():389] scan: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files
+2023-06-12 01:03:01,137 INFO    SenderThread:27668 [dir_watcher.py:finish():403] scan save: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\conda-environment.yaml conda-environment.yaml
+2023-06-12 01:03:01,137 INFO    SenderThread:27668 [dir_watcher.py:finish():403] scan save: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\config.yaml config.yaml
+2023-06-12 01:03:01,138 INFO    SenderThread:27668 [dir_watcher.py:finish():403] scan save: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\output.log output.log
+2023-06-12 01:03:01,141 INFO    SenderThread:27668 [dir_watcher.py:finish():403] scan save: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\requirements.txt requirements.txt
+2023-06-12 01:03:01,142 INFO    SenderThread:27668 [dir_watcher.py:finish():403] scan save: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\wandb-metadata.json wandb-metadata.json
+2023-06-12 01:03:01,146 INFO    SenderThread:27668 [dir_watcher.py:finish():403] scan save: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\wandb-summary.json wandb-summary.json
+2023-06-12 01:03:01,151 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 10
+2023-06-12 01:03:01,152 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:01,153 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-12 01:03:01,157 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:01,158 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-06-12 01:03:01,158 INFO    SenderThread:27668 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-12 01:03:01,848 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-12 01:03:01,940 INFO    wandb-upload_0:27668 [upload_job.py:push():133] Uploaded file C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\config.yaml
+2023-06-12 01:03:02,047 INFO    wandb-upload_1:27668 [upload_job.py:push():133] Uploaded file C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\output.log
+2023-06-12 01:03:02,165 INFO    wandb-upload_3:27668 [upload_job.py:push():133] Uploaded file C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\wandb-summary.json
+2023-06-12 01:03:02,689 INFO    wandb-upload_2:27668 [upload_job.py:push():133] Uploaded file C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\files\requirements.txt
+2023-06-12 01:03:02,894 INFO    Thread-15 :27668 [sender.py:transition_state():602] send defer: 11
+2023-06-12 01:03:02,894 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:02,895 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-12 01:03:02,895 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:02,896 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-06-12 01:03:02,896 INFO    SenderThread:27668 [file_pusher.py:join():164] waiting for file pusher
+2023-06-12 01:03:02,896 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 12
+2023-06-12 01:03:02,896 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:02,896 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-12 01:03:02,897 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:02,897 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-06-12 01:03:03,248 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 13
+2023-06-12 01:03:03,249 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:03,249 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-12 01:03:03,249 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:03,249 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-06-12 01:03:03,249 INFO    SenderThread:27668 [sender.py:transition_state():602] send defer: 14
+2023-06-12 01:03:03,250 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 01:03:03,250 INFO    HandlerThread:27668 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-12 01:03:03,250 DEBUG   SenderThread:27668 [sender.py:send():369] send: final
+2023-06-12 01:03:03,250 DEBUG   SenderThread:27668 [sender.py:send():369] send: footer
+2023-06-12 01:03:03,250 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: defer
+2023-06-12 01:03:03,250 INFO    SenderThread:27668 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-06-12 01:03:03,251 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-12 01:03:03,252 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: server_info
+2023-06-12 01:03:03,252 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-12 01:03:03,253 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-12 01:03:03,253 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: poll_exit
+2023-06-12 01:03:03,253 DEBUG   SenderThread:27668 [sender.py:send_request():396] send_request: server_info
+2023-06-12 01:03:03,568 DEBUG   HandlerThread:27668 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-12 01:03:03,568 INFO    HandlerThread:27668 [handler.py:finish():854] shutting down handler
+2023-06-12 01:03:04,265 INFO    WriterThread:27668 [datastore.py:close():298] close: C:\Users\Praveen\Desktop\MLOps-Zoomcamp-Assignment\Week2-Experiment_Tracking\Week2b-Experiment_Tracking-WandB\wandb\run-20230612_010251-j0zvbnl4\run-j0zvbnl4.wandb
+2023-06-12 01:03:04,579 INFO    SenderThread:27668 [sender.py:finish():1526] shutting down sender
+2023-06-12 01:03:04,579 INFO    SenderThread:27668 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-12 01:03:04,579 INFO    SenderThread:27668 [file_pusher.py:join():164] waiting for file pusher

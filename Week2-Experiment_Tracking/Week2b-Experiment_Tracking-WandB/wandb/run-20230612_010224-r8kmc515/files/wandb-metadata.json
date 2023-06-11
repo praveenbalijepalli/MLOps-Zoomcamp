@@ -1,0 +1,51 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-06-11T19:32:25.914356",
+    "startedAt": "2023-06-11T19:32:24.581274",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "mlops_green_taxi",
+        "--wandb_entity",
+        "vnpraveenb",
+        "--data_artifact",
+        "vnpraveenb/mlops_green_taxi/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\Praveen\\Desktop\\MLOps-Zoomcamp-Assignment\\Week2-Experiment_Tracking\\Week2b-Experiment_Tracking-WandB\\homework-wandb\\sweep.py",
+    "codePath": "homework-wandb\\sweep.py",
+    "host": "Zatoichi",
+    "username": "Praveen",
+    "executable": "C:\\Users\\Praveen\\anaconda3\\envs\\wandb\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2808.0,
+        "min": 0.0,
+        "max": 2808.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2808.0,
+            "min": 0.0,
+            "max": 2808.0
+        }
+    ],
+    "disk": {
+        "total": 936.2119102478027,
+        "used": 869.8961563110352
+    },
+    "gpu": "NVIDIA GeForce GTX 1060 with Max-Q Design",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1060 with Max-Q Design",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 31.867870330810547
+    }
+}
