@@ -1,14 +1,14 @@
 ## Experiment Tracking - WandB
    ```
-    Platform:                       WandB Cloud
+    Platform:                       Local Host / WandB Cloud
     Environment Setup:              conda create -n mlops python=3.9
-                                    conda activate mlops
-                                    conda install -c conda-forge numpy pandas matplotlib seaborn scikit-learn jupyter optuna mlflow
+                                    conda activate wandb
+                                    conda install -c conda-forge numpy pandas matplotlib seaborn scikit-learn jupyter wandb
     To run the jupyter notebook:    jupyter notebook
 
-    MLFlow UI Command:              mlflow ui           
-    MLFlow Server Command:          mlflow server --backend-store-uri sqlite:///backend.db --default-artifact-root ./artifacts
-    Link to the MLFlow Server:      http://127.0.0.1:5000
+    W&B Login - Python Code:        import wandb
+                                    wandb.login()          
+
 
 
    ```                              
