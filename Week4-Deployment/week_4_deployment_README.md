@@ -10,7 +10,7 @@
     Build Docker Image:             docker build -t <<container-name>>:<<container-tag>>
     Prefect Cloud Login:            docker run -it <<container-name>>:<<container-tag>>
 
-    Assignment:                     https://github.com/praveenbalijepalli/MLOps-Zoomcamp/blob/main/Week4-Deployment/week_4_deployment.ipynb
+    Assignment:                     https://github.com/praveenbalijepalli/MLOps-Zoomcamp/blob/main/Week4-Deployment/week_4_deployment.ipynb                     
    ```
 
                           
