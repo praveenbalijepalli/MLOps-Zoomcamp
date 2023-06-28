@@ -3,6 +3,7 @@
     Operating System:               Ubuntu/Linux
     Environment Setup:              pip install pipenv
                                     pipenv shell (Type this command to create a virtual environment. Do this in the project folder)
+                                    pipenv jupyter
                                     pipenv install -r requirements.txt
     To run the jupyter notebook:    jupyter notebook
    
