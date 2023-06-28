@@ -10,4 +10,8 @@
     Build Docker Image:             docker build -t <<container-name>>:<<container-tag>>
     Prefect Cloud Login:            docker run -it <<container-name>>:<<container-tag>>
 
-   ```                              
+    Assignment:                     https://github.com/praveenbalijepalli/MLOps-Zoomcamp/blob/main/Week4-Deployment/week_4_deployment.ipynb
+   ```
+
+                          
+Note: Unable to add predictions folder in to the repository as the file size is ~ 58MB i.e. it is >25MB which is the limit of the file we can upload in a repository. When running the code, please create predictions folder and run the code in week_4_deployment.ipynb file.
