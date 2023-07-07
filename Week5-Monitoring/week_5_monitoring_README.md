@@ -2,11 +2,14 @@
    ```
     Operating System:               Ubuntu/Linux
     Environment Setup:              conda create -n py11 python=3.11                                 
-                                    conda install --file requirements.txt or pip install -r requirements.txt
+                                    pip install -r requirements.txt
     To run the jupyter notebook:    jupyter notebook
    
     Docker:                         Containerization and Deployment
-    Build Docker Image:             docker build -t <<container-name>>:<<container-tag>>
-    Prefect Cloud Login:            docker run -it <<container-name>>:<<container-tag>>
+    Docker Config File:             docker-compose.yml
+    Build Docker Image and Run:     docker-compose up --build
+
+    Grafana URL:                     http://localhost:3000 
+    Adminer:                         http://localhost:8080
 
    ```                              
